@@ -41,7 +41,7 @@ def calculate_mortgage(PropertyPrice, DownPayment, LoanTermYears, Margin, EIBOR_
     return df
 
 
-st.title("Dubai Luxury Mortgage Calculator and SPA")
+st.title("Dubai Luxury Mortgage Calculator and SPA and Golf")
 
 PropertyPrice = st.number_input("Property Price ($)", min_value=10000, step=10000, value=1150000)
 DownPayment = st.number_input("Down Payment ($)", min_value=1000, step=1000, value=230000)
